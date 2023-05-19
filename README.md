@@ -10,23 +10,6 @@ The contributions of this paper are as follows:
 - Specifically, the model uncertainty is comprehended with MC dropout. And the built-in errors are reduced with the proposed marginalized unlikelihood learning and minimization entropy. Our method is template-agnostic and can be easily applied to various target templates;
 - Experimental results on four public datasets Rest15, Rest16, Restaurant, and Laptop demonstrate that UAUL has universal effectiveness  on various templates.
 
-## Environment
-    Python==3.8
-    torch==1.11.0
-    transformers==4.14.1
-    pytorch_lightning==0.8.1
-    numpy==1.21.2
-    
-## Hyperparameters
-
-<p align="center">
-  <img src="img/para.png" width="40%"/>
-</p>
-
-<p align="center">
-  <img src="img/para1.png" width="40%"/>
-</p>
-
 ## Methods
 
 We provided the source code of uncertainty-aware unlikelihood learning (UAUL).
@@ -53,6 +36,23 @@ We further investigate the ability of UAUL under low resource scenario:
 
 <p align="center">
   <img src="img/low_resource.png" width="40%"/>
+</p>
+
+## Environment
+    Python==3.8
+    torch==1.11.0
+    transformers==4.14.1
+    pytorch_lightning==0.8.1
+    numpy==1.21.2
+    
+## Hyperparameters
+
+<p align="center">
+  <img src="img/para.png" width="40%"/>
+</p>
+
+<p align="center">
+  <img src="img/para1.png" width="40%"/>
 </p>
 
 ## Citation
