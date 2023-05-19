@@ -20,11 +20,11 @@ The contributions of this paper are as follows:
 ##Hyperparameters
 
 <p align="center">
-  <img src="img/para.png" width="80%"/>
+  <img src="img/para.png" width="40%"/>
 </p>
 
 <p align="center">
-  <img src="img/para.png1" width="80%"/>
+  <img src="img/para1.png" width="40%"/>
 </p>
 
 ## Methods
@@ -34,25 +34,25 @@ We provided the source code of uncertainty-aware unlikelihood learning (UAUL).
 Overview of our Uncertainty-Aware Unlikelihood Learning method. We address "noise and errors" with an "acquire-and-reduce" method, using an uncertainty-aware negative sampling approach with Monte-Carlo Dropout (MC dropout) to obtain negative samples vulnerable to errors during training. We then propose a MUL loss to reduce these errors and noise.
 
 <p align="center">
-  <img src="img/method.pdf" width="50%"/>
+  <img src="img/method.png" width="80%"/>
 </p>
-<!-- ![Alt text:center](img/method.PNG?raw=true "method") -->
+<!-- ![Alt text:center](img/method.png?raw=true "method") -->
 
 ## Results
 The quadruple extraction performance of five different systems (including baseline and +UAUL) on the four datasets:
 
 <p align="center">
-  <img src="img/main_results1.PNG" width="70%"/>
+  <img src="img/main_results1.png" width="60%"/>
 </p>
 
 <p align="center">
-  <img src="img/main_results2.PNG" width="80%"/>
+  <img src="img/main_results2.png" width="60%"/>
 </p>
 
 We further investigate the ability of UAUL under low resource scenario:
 
 <p align="center">
-  <img src="img/low_resource.png" width="80%"/>
+  <img src="img/low_resource.png" width="40%"/>
 </p>
 
 ## Citation
