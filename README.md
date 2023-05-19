@@ -17,7 +17,7 @@ The contributions of this paper are as follows:
     pytorch_lightning==0.8.1
     numpy==1.21.2
     
-##Hyperparameters
+## Hyperparameters
 
 <p align="center">
   <img src="img/para.png" width="40%"/>
